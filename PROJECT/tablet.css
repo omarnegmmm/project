@@ -1,0 +1,17 @@
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .org{
+        background-image: url("code.jpg");
+    }
+    
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .org{
+        background-image: url("background.png");
+    }
+    .about{
+        height: 40vh;
+    }
+    .skills .ourskills{
+        width: 112%;
+    }
+}
