@@ -1,14 +1,16 @@
 @media screen and (min-width: 577px) and (max-width: 767px) {
     .org{
         background-image: url("v627-aew-40-technologybackground.jpg");
+        width:max-content;
 
     }
     .about{
         height: 70vh;
+        width:max-content;
     }
     .skills .ourskills{
         flex-direction: column;
-        width: 100%;
+        width:max-content;
     }
 }
 @media screen  and (max-width: 576px){
@@ -37,7 +39,7 @@
     }
     .skills .ourskills{
         flex-direction: column;
-        width: 100%;
+        width:max-content;
     }
     .about-me-text{
         height: max-content;
