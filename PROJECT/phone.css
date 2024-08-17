@@ -1,0 +1,57 @@
+@media screen and (min-width: 577px) and (max-width: 767px) {
+    .org{
+        background-image: url("lovepik-future-tech-wallpaper-background-image_500557144.jpg");
+        width: 100%;
+
+    }
+    .about{
+        height: 70vh;
+        width: max-content;
+    }
+    .skills .ourskills{
+        flex-direction: column;
+        width:max-content;
+        margin: auto;
+    }
+}
+@media screen  and (max-width: 576px){
+    .org{
+        background-image: url("lovepik-future-tech-wallpaper-background-image_500557144.jpg");
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+    }
+    .parent {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        position: static;
+
+    }
+    .parent .header{
+        flex-direction: row;
+        gap: 10px;
+        
+    }
+    .about{
+        height: max-content;
+        padding-top:60px ;
+        padding-bottom: 60px;
+
+    }
+    .skills .ourskills{
+        flex-direction: column;
+        width: max-content;
+        margin: auto;
+    }
+    .about-me-text{
+        height: max-content;
+        padding: 30px;
+        align-items: center;
+       
+    }
+    .about-me-text b{
+        text-align: center;
+    }
+}
